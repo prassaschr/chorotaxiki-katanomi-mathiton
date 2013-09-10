@@ -62,11 +62,14 @@ http://thess.pde.sch.gr/jm/index.php/component/content/article/534-geographical-
 
 
 ////////////////////////////////////////////////////////////////////////////  
+	
 	"Χωροταξική Κατανομή Σχολείων"
 	Διαδικτυακής Εφαρμογής Χαρτογραφικής Απεικόνισης Χωροταξικής Κατανομής 
 	Μαθητών Περιφέρειας Θεσσαλίας από αρχεία XML 
 	Copyright (C) 2012 Πρασσάς Χρηστος
+
 ///////////////////////////////////////////////////////////////////////////
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -79,9 +82,5 @@ http://thess.pde.sch.gr/jm/index.php/component/content/article/534-geographical-
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see http://www.gnu.org/copyleft/gpl.html.
-/
+
 ///////////////////////////////////////////////////////////////////////////
-	/* ************************** ΠΕΡΙΓΡΑΦΗ ΛΕΙΤΟΥΡΓΙΑΣ ΑΡΧΕΙΟΥ ************************** */
-	/*	Το αρχείο αυτό παρουσιάζει τα δεδομένα του XML αρχείου στον χάρτη (Google Maps).          */
-	/*  Αν η φόρμα υποβληθεί, διαβάζει το αρχείο ΑΦΜ.php και παρουσιάζει τα οικονομικά στοιχεία   */
-	/* ****************************************************************************************** */
