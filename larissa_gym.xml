@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Γυμνάσια Λάρισας.kml</name>
+	<StyleMap id="plexPolyStyle220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-square">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-blank0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle290">
+		<LineStyle>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle410">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle320</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle110">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle330">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle370">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle380">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle44</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle100">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle250">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-circle">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle200">
+		<LineStyle>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle270">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle240</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle290</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="plexPolyStyle340">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle45</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle330</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="plexPolyStyle400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle280</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle44">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="plexPolyStyle120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle390</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle80">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_grn-blank0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-blank0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle310">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="plexPolyStyle70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_blu-blank">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle300">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_red-square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-square</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_blu-blank0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-blank3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ltblu-blank3">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-blank">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff005500</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle170</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_blu-blank0">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle311">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle260">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle140">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ltblu-blank">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_pink-blank">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle211">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle150</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ltblu-blank1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff005500</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_pink-blank0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle90">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle320">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ltblu-blank2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle240">
+		<LineStyle>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle420">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle160">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ltblu-blank0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle60">
+		<LineStyle>
+			<width>0.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle430</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_pink-blank0">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/pink-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle430">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_wht-blank">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle370</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-circle">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle280">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle150">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle130">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-blank2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blu-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blu-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blu-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle390">
+		<LineStyle>
+			<width>0.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-blank3">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-blank2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_blu-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blu-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blu-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle45">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ltblu-blank2">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle00">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_blu-blank">
+		<IconStyle>
+			<color>ff000000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="plexPolyStyle360">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#plexPolyStyle420</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#plexPolyStyle110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle230">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-square">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle350">
+		<LineStyle>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="plexPolyStyle170">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ltblu-blank1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fff55</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="plexPolyStyle111">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_pink-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="plexPolyStyle210">
+		<LineStyle>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff55</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Γυμνάσια Λάρισας</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>1ο Γυμνάσιο - τηλ.:2410620720</name>
+			<LookAt>
+				<longitude>22.4138445206596</longitude>
+				<latitude>39.63460070661951</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005564110842020714</heading>
+				<tilt>0</tilt>
+				<range>496.718178979846</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_pink-blank</styleUrl>
+			<Point>
+				<coordinates>22.41261059660576,39.63461087269663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2ο Γυμνάσιο - τηλ.:2410236582</name>
+			<LookAt>
+				<longitude>22.43149042996696</longitude>
+				<latitude>39.63587210712552</latitude>
+				<altitude>0</altitude>
+				<heading>0.002008381671802116</heading>
+				<tilt>0</tilt>
+				<range>611.9867793744048</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank0</styleUrl>
+			<Point>
+				<coordinates>22.42949697161624,39.63722637191302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3ο Γυμνάσιο - τηλ.:2410619701</name>
+			<LookAt>
+				<longitude>22.40117877153213</longitude>
+				<latitude>39.61897096032079</latitude>
+				<altitude>0</altitude>
+				<heading>0.005014600615874958</heading>
+				<tilt>0</tilt>
+				<range>743.8191977574245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank</styleUrl>
+			<Point>
+				<coordinates>22.40232763495536,39.61726111306865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4ο Γυμνάσιο - τηλ.:2410620728</name>
+			<LookAt>
+				<longitude>22.41341425537211</longitude>
+				<latitude>39.63335804416574</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003043208858767611</heading>
+				<tilt>0</tilt>
+				<range>656.0847633863173</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_pink-blank0</styleUrl>
+			<Point>
+				<coordinates>22.41247340332271,39.6339685625165,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>5ο Γυμνάσιο - τηλ.:2410579619</name>
+			<LookAt>
+				<longitude>22.42400448386902</longitude>
+				<latitude>39.63291878230074</latitude>
+				<altitude>0</altitude>
+				<heading>0.001199005537493876</heading>
+				<tilt>0</tilt>
+				<range>300.5622757559285</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blu-blank0</styleUrl>
+			<Point>
+				<coordinates>22.42412876296361,39.63251427656292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>6ο Γυμνάσιο - τηλ.:2410614823</name>
+			<LookAt>
+				<longitude>22.39848263282198</longitude>
+				<latitude>39.62672224509679</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001103750554468084</heading>
+				<tilt>2.887008556079592</tilt>
+				<range>176.062172104907</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_blu-blank</styleUrl>
+			<Point>
+				<coordinates>22.39767806052605,39.62709918895921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>7ο Γυμνάσιο - τηλ.:2410571737</name>
+			<LookAt>
+				<longitude>22.45119780313895</longitude>
+				<latitude>39.62885224728873</latitude>
+				<altitude>0</altitude>
+				<heading>0.003803031940746809</heading>
+				<tilt>0</tilt>
+				<range>511.9531528848215</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-blank2</styleUrl>
+			<Point>
+				<coordinates>22.45032967456084,39.62805312586825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>8ο Γυμνάσιο - τηλ.:2410614473</name>
+			<LookAt>
+				<longitude>22.4051077207436</longitude>
+				<latitude>39.63385657644034</latitude>
+				<altitude>0</altitude>
+				<heading>0.005673480111520077</heading>
+				<tilt>0</tilt>
+				<range>461.1319998361903</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-blank</styleUrl>
+			<Point>
+				<coordinates>22.40657219740318,39.6339413975016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9ο Γυμνάσιο - τηλ.:2410551138</name>
+			<LookAt>
+				<longitude>22.42948018817176</longitude>
+				<latitude>39.62549644410841</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001467002890081433</heading>
+				<tilt>0</tilt>
+				<range>216.4183911101204</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-square</styleUrl>
+			<Point>
+				<coordinates>22.42948018817176,39.62549644410841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10ο Γυμνάσιο - τηλ.:2410250019</name>
+			<LookAt>
+				<longitude>22.40449910157033</longitude>
+				<latitude>39.64040232560255</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002596586650002422</heading>
+				<tilt>0</tilt>
+				<range>601.2795311996258</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank</styleUrl>
+			<Point>
+				<coordinates>22.40338971725177,39.6398491193145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>11ο Γυμνάσιο - τηλ.:2410237153</name>
+			<LookAt>
+				<longitude>22.43384391049027</longitude>
+				<latitude>39.64913147214196</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0007557641439248374</heading>
+				<tilt>0</tilt>
+				<range>628.5616115951827</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-blank0</styleUrl>
+			<Point>
+				<coordinates>22.43412755309635,39.64841207868193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>12ο Γυμνάσιο - τηλ.:2410253926</name>
+			<LookAt>
+				<longitude>22.42199709722969</longitude>
+				<latitude>39.64575992562183</latitude>
+				<altitude>0</altitude>
+				<heading>0.001896949721636619</heading>
+				<tilt>0</tilt>
+				<range>574.2394474528563</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-blank1</styleUrl>
+			<Point>
+				<coordinates>22.41988249882541,39.64529891635913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>13ο Γυμνάσιο - τηλ.:2410660198</name>
+			<LookAt>
+				<longitude>22.42907431674851</longitude>
+				<latitude>39.61160169507072</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003955184524496913</heading>
+				<tilt>0</tilt>
+				<range>426.5407307835785</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-circle</styleUrl>
+			<Point>
+				<coordinates>22.4287629969662,39.61088655709725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>14ο Γυμνάσιο - τηλ.:2410285851</name>
+			<LookAt>
+				<longitude>22.43280926787043</longitude>
+				<latitude>39.64251418066648</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005905087571480604</heading>
+				<tilt>0</tilt>
+				<range>474.4390406344333</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_grn-blank0</styleUrl>
+			<Point>
+				<coordinates>22.43270154724619,39.64378787494304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>15ο Γυμνάσιο - τηλ.:2410620724</name>
+			<LookAt>
+				<longitude>22.41755153801811</longitude>
+				<latitude>39.62064112420234</latitude>
+				<altitude>0</altitude>
+				<heading>0.001564116703916137</heading>
+				<tilt>0</tilt>
+				<range>393.6239898367056</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ltblu-blank3</styleUrl>
+			<Point>
+				<coordinates>22.41734281647876,39.62120388906202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1ο Γυμνάσιο - 2410620720
+- ΗΠΕΙΡΟΥ-ΑΝΘ. ΓΑΖΗ, 41222</name>
+			<styleUrl>#plexPolyStyle70</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4093195224601,39.6403825631947,0 22.4103853178148,39.6406401129456,0 22.4116769112976,39.6408593881879,0 22.4122602648549,39.6409646443236,0 22.4124314857856,39.6411397225234,0 22.4125112710948,39.6412213048563,0 22.4133751704273,39.6411397398344,0 22.4134118435555,39.6412105080081,0 22.4137425961229,39.6411891381712,0 22.4139721348136,39.6411591064671,0 22.4143118068352,39.6411637446594,0 22.4143971628947,39.6410161847612,0 22.416175537472,39.6407883601019,0 22.4163113922541,39.6404980499622,0 22.4171242881402,39.6398422597461,0 22.4173356121204,39.6388705034186,0 22.418341670572,39.6389523174507,0 22.4182432598132,39.6354453604984,0 22.4166314078254,39.6353483948781,0 22.4158846781735,39.6352731822341,0 22.4153026117184,39.635112048536,0 22.4131003383413,39.6340990530027,0 22.4117841136616,39.6341182123081,0 22.4118060559699,39.634838513269,0 22.4083983562466,39.6348422409836,0 22.4083879453795,39.6341899429953,0 22.4082265821953,39.6341290296263,0 22.4075832170631,39.6341381978591,0 22.4078507258424,39.6347842781039,0 22.4077103619108,39.6347895779452,0 22.4079136670603,39.6352989372583,0 22.4082317786345,39.6355609759168,0 22.4082222373495,39.6362558530247,0 22.4088499964977,39.6362644550649,0 22.4084160150129,39.6382074713746,0 22.4093010325694,39.6389263836755,0 22.4093195224601,39.6403825631947,0 22.4093195224601,39.6403825631947,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>2ο Γυμνάσιο - 2410236582
+-  ΗΡΩΩΝ ΠΟΛΥΤΕΧΝΕΙΟΥ 189, 41221</name>
+			<styleUrl>#plexPolyStyle400</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4204443659304,39.6391419192456,0 22.4278177371536,39.639848587401,0 22.4280041286814,39.6414236596453,0 22.4297386638222,39.641605765141,0 22.430219905466,39.6392877985936,0 22.4327089002727,39.6394340143534,0 22.4329530548347,39.6385849955143,0 22.4362400957201,39.6389195134539,0 22.4360061649603,39.6365281596978,0 22.435626871672,39.6350023032328,0 22.4341631330784,39.6314488403011,0 22.4321882713538,39.6317878892505,0 22.4309933515435,39.632079613867,0 22.430001338135,39.6319352289379,0 22.4293283174339,39.6318449099294,0 22.4286320289017,39.6315174888228,0 22.427048359847,39.6334296769319,0 22.4256314753931,39.6347655288674,0 22.4273016036687,39.6351376946267,0 22.4274787291815,39.6356958482213,0 22.4228626455513,39.637654643348,0 22.4222842660002,39.6379017481605,0 22.4204443659304,39.6391419192456,0 22.4278177371536,39.639848587401,0 22.4204443659304,39.6391419192456,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>3ο Γυμνάσιο - 2410619701 - ΤΕΡΜΑ ΟΔΟΥ ΚΑΡΔΙΤΣΑΣ, 41334</name>
+			<styleUrl>#plexPolyStyle340</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.392086012758,39.6206304707837,0 22.3929745546357,39.6198783531105,0 22.3950182321705,39.6189215770021,0 22.4041913514076,39.6152407330901,0 22.4161358321355,39.6267217352056,0 22.4128292512337,39.6283927120141,0 22.4116553139807,39.6287513060359,0 22.4097976382033,39.6291680243282,0 22.4078156250633,39.6242286305027,0 22.4049545905306,39.6253378836712,0 22.4018986149805,39.6266957745767,0 22.4021906094109,39.6264667771584,0 22.4025005011772,39.6260631942625,0 22.4018231440618,39.625792701373,0 22.3991379057375,39.6243311000567,0 22.398249586418,39.6238345732647,0 22.392086012758,39.6206304707837,0 22.392086012758,39.6206304707837,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>4ο Γυμνάσιο - 2410620728
+- ΗΠΕΙΡΟΥ-ΑΝΘ. ΓΑΖΗ 38, 41222</name>
+			<styleUrl>#plexPolyStyle360</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4071007710792,39.6330827409647,0 22.4075832170631,39.6341381978591,0 22.4082457112236,39.6341472792881,0 22.4084229730179,39.6342031656178,0 22.4083983562466,39.6348422409836,0 22.411776723474,39.634865581525,0 22.4117886996746,39.6341498334084,0 22.4131126584866,39.6341289903374,0 22.4153391787766,39.635126737676,0 22.4159478537516,39.6352796415981,0 22.4167721756654,39.6353750641837,0 22.4174585018644,39.6343619905311,0 22.4175688635641,39.6337698191902,0 22.4164337300575,39.633571177307,0 22.4164473912603,39.6329721311818,0 22.4158172581421,39.6332167994482,0 22.4157827550002,39.6314169001204,0 22.4188089238583,39.6308558055845,0 22.4193408780167,39.6305749518109,0 22.4206817151788,39.6289326133969,0 22.4195839605213,39.6285954431385,0 22.4179877149508,39.6280056508787,0 22.4168879412095,39.6272699686134,0 22.416193465267,39.6266928868014,0 22.4128292512337,39.6283927120141,0 22.4126860691902,39.6283886921832,0 22.4116392425568,39.6287846296141,0 22.4098762937262,39.6291831416977,0 22.411087894616,39.6322235423994,0 22.4071056554917,39.6330760126611,0 22.4071007710792,39.6330827409647,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>5ο Γυμνάσιο - 2410579619
+- ΙΟΥΣΤΙΝΙΑΝΟΥ ΚΑΙ  ΒΟΥΤΣΙΛΑ, 41223</name>
+			<styleUrl>#plexPolyStyle50</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.418341670572,39.6389523174507,0 22.4204443659304,39.6391419192456,0 22.4224244754755,39.637714087249,0 22.4273192605667,39.6356936889802,0 22.4273350493723,39.6351434020478,0 22.4256314753931,39.6347655288674,0 22.427160309762,39.6332712288918,0 22.4284668318785,39.6316082911893,0 22.4274398309464,39.6312895020774,0 22.4234673071887,39.6301106576885,0 22.4229536936239,39.6300776156529,0 22.4228562373426,39.6299133611382,0 22.4204776544368,39.6292386201091,0 22.4195670507944,39.630344368931,0 22.4193869547368,39.6305499445808,0 22.4188180994213,39.6308586769881,0 22.4157827550002,39.6314169001204,0 22.4158172581421,39.6332167994482,0 22.41644457145,39.6329556219077,0 22.4164343500975,39.6335359730898,0 22.4175150664774,39.6337512560707,0 22.4174073014524,39.634263207746,0 22.4167999077202,39.635306369961,0 22.4182178032951,39.6353959292605,0 22.4183521006435,39.6389614468621,0 22.418341670572,39.6389523174507,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>6ο Γυμνάσιο - 2410614823 - ΜΕΡΑΡΧΙΑΣ-ΚΑΡΑΟΛΗ 1, 41334</name>
+			<styleUrl>#plexPolyStyle410</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.3843382646931,39.6298086963928,0 22.3870363746457,39.6298204404881,0 22.3870285963436,39.6332441803894,0 22.3944746034783,39.6324675163226,0 22.4005714168899,39.6325681707379,0 22.399066120099,39.6280037680814,0 22.4014747471889,39.6269982309746,0 22.4024453702913,39.6262776404086,0 22.392086012758,39.6206304707837,0 22.3903768025284,39.6221495885042,0 22.3841891261344,39.6298060258149,0 22.3843382646931,39.6298086963928,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>7ο Γυμνάσιο - 2410571737
+- ΑΡΗ ΑΛΕΞΑΝΔΡΟΥ ΚΑΙ ΜΕΘΟΔΙΟΥ, 41336</name>
+			<styleUrl>#plexPolyStyle190</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4521657422431,39.633048022275,0 22.4548140792797,39.6329747735922,0 22.4563458784958,39.6328302665355,0 22.4555967319696,39.6300587279177,0 22.4556476220732,39.6299953590907,0 22.4562615085242,39.6298893038948,0 22.4560447597915,39.6284695276366,0 22.4553759146982,39.6252389903005,0 22.4490529647674,39.6278362678705,0 22.4468171853411,39.624641376591,0 22.445561458465,39.6260512577235,0 22.4453683158556,39.6262657354169,0 22.4452388907595,39.6263684921669,0 22.4450689697671,39.6264264437826,0 22.4448118339315,39.6264310486341,0 22.4445718041818,39.6263358085287,0 22.4444551638478,39.6262167788875,0 22.444341783319,39.6260081426464,0 22.4441856726992,39.625821037444,0 22.4439812092237,39.6256305110956,0 22.4435417542781,39.6253520597794,0 22.4429896508183,39.6251001036568,0 22.4428831179829,39.6250364507397,0 22.4427213924885,39.6251688049337,0 22.4411631495506,39.6265662062705,0 22.4406694415593,39.6268737531507,0 22.4430828470133,39.6282206097775,0 22.4421575519714,39.6287039962672,0 22.440696923005,39.629440915845,0 22.4360136418423,39.6314735784808,0 22.4341258494872,39.6314027244886,0 22.4350083868484,39.633375892155,0 22.435626871672,39.6350023032328,0 22.4360061649603,39.6365281596978,0 22.4362415975288,39.638952769303,0 22.4363190189101,39.6406671502895,0 22.4372277999392,39.6407029522614,0 22.4371171496961,39.6389973377612,0 22.4371273264023,39.6387798693594,0 22.4372266251645,39.6384630665949,0 22.4374621602871,39.6381295818028,0 22.4376899411121,39.6379193148896,0 22.4380519435852,39.6376540205254,0 22.4383992576233,39.63746113653,0 22.4388727289234,39.6372696517744,0 22.4403149208416,39.6367839191035,0 22.4418335921926,39.6361548799758,0 22.44261482519,39.6357240061914,0 22.443034380059,39.6354298384604,0 22.4443116419146,39.6343025520217,0 22.4447726993935,39.6339534313356,0 22.4451251690242,39.63376218161,0 22.4455188018841,39.633613080381,0 22.4461157550194,39.6333854775804,0 22.4467538177799,39.6332390284842,0 22.4471697484922,39.633190345432,0 22.4480542824385,39.6331539949754,0 22.4521657422431,39.633048022275,0 22.4521657422431,39.633048022275,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>8ο Γυμνάσιο - 2410614473
+- ΛΑΓΟΥ ΤΕΡΜΑ, 41222</name>
+			<styleUrl>#plexPolyStyle270</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4018232430537,39.6383401943671,0 22.4025560058726,39.6376956844075,0 22.4029541464711,39.6375991840675,0 22.4032958446235,39.6376038822484,0 22.4043418832046,39.6379675420898,0 22.4050160704636,39.6371631863717,0 22.4058178824887,39.6374700558486,0 22.4077243805484,39.6380032328808,0 22.4084040768117,39.6382065722158,0 22.4088551991506,39.636242852316,0 22.4082222373495,39.6362558530247,0 22.4082317786345,39.6355609759168,0 22.4079136670603,39.6352989372583,0 22.4077103619108,39.6347895779452,0 22.4078507258424,39.6347842781039,0 22.4069809590719,39.6328674191964,0 22.4003876143444,39.6326203164728,0 22.3948335600577,39.6325023064708,0 22.3922573632901,39.6327814092599,0 22.3870287591425,39.6332327648397,0 22.387076638939,39.6298750479833,0 22.3841342153483,39.6298119534645,0 22.3837388059383,39.6303914597778,0 22.3835685139467,39.6311061477782,0 22.3838032469515,39.6325964066633,0 22.3837192540323,39.6327591890075,0 22.3840026359786,39.6339483840645,0 22.3842510675256,39.6344726851169,0 22.384421783906,39.6345667907262,0 22.3846791120544,39.6349720080463,0 22.3850521221818,39.6353192346335,0 22.3854322687185,39.6355421775467,0 22.3864559667962,39.6358175765942,0 22.386203442106,39.6343575296845,0 22.3866257343638,39.6343263372979,0 22.3866375685074,39.6338284494958,0 22.3935179186336,39.634423542141,0 22.3940116693795,39.6345804487944,0 22.3979260673195,39.6368873288026,0 22.3999738473509,39.6365470476881,0 22.4005239771189,39.6369737650646,0 22.4012537149733,39.6379193152925,0 22.4016146947232,39.6383993815113,0 22.4018232430537,39.6383401943671,0 22.4018232430537,39.6383401943671,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>9ο Γυμνάσιο - 2410551138
+- ΑΚΑΡΝΑΝΙΑΣ - ΛΑΚΩΝΙΑΣ, 41335</name>
+			<styleUrl>#plexPolyStyle180</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4286320289017,39.6315174888228,0 22.429051296993,39.6317624185255,0 22.4293283174339,39.6318449099294,0 22.4295624152488,39.6319146191308,0 22.430483358114,39.6320183934393,0 22.431012355875,39.6320255407574,0 22.4318085074231,39.6319220270681,0 22.4341401499387,39.6313930420635,0 22.4360136418423,39.6314735784808,0 22.439642741403,39.6299432530121,0 22.4410352827908,39.6292747332019,0 22.4420240837619,39.6288415679758,0 22.4430828470133,39.6282206097775,0 22.4406694415593,39.6268737531507,0 22.4411462243723,39.626577443387,0 22.4427705304821,39.6251247376728,0 22.4406408998068,39.6238134513564,0 22.4392107903502,39.6229562453586,0 22.4362514077416,39.6216070551455,0 22.4324860665179,39.6201218868307,0 22.4303294606705,39.619264696441,0 22.4295959252922,39.6189725767066,0 22.4296768358511,39.6197700507018,0 22.4280020315166,39.6210007593405,0 22.4278800427049,39.6212050407432,0 22.4261519457612,39.6220550306371,0 22.4258215956679,39.6227052650138,0 22.4243560812263,39.6244271105095,0 22.422617882267,39.6266118379471,0 22.4207625654059,39.6288637286916,0 22.4204776544368,39.6292386201091,0 22.4219165346514,39.6296373684723,0 22.4228562373426,39.6299133611382,0 22.4229536936239,39.6300776156529,0 22.4233633705005,39.6300831775328,0 22.4247524574037,39.6305417278709,0 22.4264500905512,39.6309527286442,0 22.4285154009419,39.6315344951609,0 22.4286320289017,39.6315174888228,0 22.4286320289017,39.6315174888228,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>10ο Γυμνάσιο - 2410250019
+- ΗΡΑΚΛΕΙΑΝΟΥ, 41447</name>
+			<styleUrl>#plexPolyStyle211</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4018232430537,39.6383401943671,0 22.4025560058726,39.6376956844075,0 22.4029544668562,39.6375852559649,0 22.4032517379253,39.6376201918419,0 22.4043418832046,39.6379675420898,0 22.4050160704636,39.6371631863717,0 22.4058178824887,39.6374700558486,0 22.4084040768117,39.6382065722158,0 22.4093010325694,39.6389263836755,0 22.409380995402,39.6404031776316,0 22.4099527894633,39.6405949218596,0 22.4110163825712,39.6407612581699,0 22.4122602648549,39.6409646443236,0 22.4124314857856,39.6411397225234,0 22.4123622663697,39.6412601594806,0 22.4111166774597,39.6418266981562,0 22.4118537387101,39.6423433141516,0 22.4119432933197,39.6426497483828,0 22.4121518502806,39.6436175716364,0 22.4130043648019,39.6464449077132,0 22.4132142708721,39.647481175221,0 22.4137827009122,39.6484891922866,0 22.4154587556627,39.6521446706849,0 22.4150483995217,39.6524434082961,0 22.4080477151717,39.6493305517152,0 22.4071577760212,39.6485477219478,0 22.4024399237764,39.6433486669387,0 22.401950496858,39.6425689983836,0 22.4017357467269,39.6419158602013,0 22.4016794650655,39.6412420035743,0 22.4021490919662,39.6391605479743,0 22.4018232430537,39.6383401943671,0 22.4018232430537,39.6383401943671,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>11ο Γυμνάσιο - 2410237153
+- ΔΗΜΟΣΘΕΝΟΥΣ 20, 41336</name>
+			<styleUrl>#plexPolyStyle380</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4278276567754,39.6457841341138,0 22.4287136977799,39.6448392619939,0 22.4295138192107,39.6446067532574,0 22.4304780684422,39.6444112194549,0 22.431996257016,39.6442579190168,0 22.4367253499381,39.643868189908,0 22.4372060268442,39.645279065056,0 22.4375384797249,39.6468648444735,0 22.4376336372727,39.6484622957613,0 22.4375620538822,39.6502182864213,0 22.4375675307657,39.6529989366801,0 22.4383149689284,39.6530071288499,0 22.439425043834,39.6565954626565,0 22.4401075341735,39.6579401999181,0 22.4405830528602,39.6585078833033,0 22.4422544982316,39.6599029533173,0 22.4406045441912,39.6606804179951,0 22.4406598013437,39.6607576957231,0 22.440207009779,39.6609511117229,0 22.4393318325565,39.6610923647108,0 22.4390203430275,39.6610573758013,0 22.4387368586628,39.6609435840011,0 22.4386074854331,39.6608503236384,0 22.438445440506,39.6607218186231,0 22.4348329280987,39.656343921263,0 22.4334231175784,39.6547325780121,0 22.4325146963196,39.6536532994367,0 22.4310636489795,39.6515246583107,0 22.4300033083599,39.6499408327793,0 22.4296560345057,39.649425783435,0 22.4283531250085,39.6477319838327,0 22.428056290104,39.6473545565798,0 22.4278841799724,39.6468414278461,0 22.4278030685272,39.6462103279571,0 22.4278287343267,39.6457848235246,0 22.4287136977799,39.6448392619939,0 22.4278276567754,39.6457841341138,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>12ο Γυμνάσιο - 2410253926
+- ΤΕΡΜΑ ΡΟΔΟΥ ΑΜΠΕΛΟΚΗΠΟΙ, 41447</name>
+			<styleUrl>#plexPolyStyle310</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4161472482236,39.6497111165092,0 22.4145420982124,39.6469233415974,0 22.4143843777492,39.6461241706856,0 22.4138946482708,39.6435968702176,0 22.4128944175746,39.6420040535202,0 22.4125088890184,39.6412164738983,0 22.413384232762,39.6411620533014,0 22.4143127622368,39.6411636395254,0 22.4144167073485,39.6409638304641,0 22.416175537472,39.6407883601019,0 22.4162950506638,39.6404745449349,0 22.4171161692403,39.6397246101927,0 22.4173356121204,39.6388705034186,0 22.4251866838981,39.6396801441947,0 22.4254201631112,39.6422437126426,0 22.4252828286815,39.6439985671711,0 22.4228106556249,39.6432113406032,0 22.421190576652,39.6430965554329,0 22.4201512597101,39.6434173271325,0 22.4198034837019,39.643712662328,0 22.419782438806,39.644154201435,0 22.4201752198476,39.6445434619541,0 22.4212577821961,39.6452546621373,0 22.4217120202816,39.6456323815215,0 22.4216682030985,39.6460410246341,0 22.4215231504014,39.6466362950981,0 22.4210267649752,39.6473640006782,0 22.4201309325691,39.6483707899871,0 22.4197646230277,39.6485385292513,0 22.4189817689389,39.6485526228222,0 22.4185650265097,39.6485926140014,0 22.418053546376,39.6486721362876,0 22.4172753905338,39.6491228624641,0 22.4164414918073,39.6496647481094,0 22.4160916471804,39.6496959616746,0 22.4145191760002,39.6467361190055,0 22.4161472482236,39.6497111165092,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>13ο Γυμνάσιο - 2410660198
+- ΛΕΜΕΣΟΥ ΚΑΛΛΙΣΘΕΝΗ, 41335</name>
+			<styleUrl>#plexPolyStyle120</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4261519457612,39.6220550306371,0 22.4278800427049,39.6212050407432,0 22.4280020315166,39.6210007593405,0 22.4296762043791,39.6198773509971,0 22.4296808071805,39.6190952097856,0 22.4323331680769,39.6201447267365,0 22.4326997410114,39.617690519971,0 22.4338607258865,39.6150757712684,0 22.4352348047594,39.6131687524687,0 22.4369622592067,39.6112070410088,0 22.4360520731846,39.6106502507507,0 22.440327826204,39.6059331635888,0 22.4429202567676,39.6029843914599,0 22.4436309374482,39.6021169769779,0 22.4434681779854,39.6016800361917,0 22.4429544962429,39.6012186303536,0 22.4414848444682,39.6009502287408,0 22.4329871709789,39.5998295492168,0 22.4310731062079,39.6000490436007,0 22.4282767856295,39.6010635602273,0 22.4215792458834,39.6036342716685,0 22.4176299290976,39.6051354303565,0 22.4166746927852,39.6058288976419,0 22.4132771126315,39.6102735563941,0 22.4162647853665,39.6103385363152,0 22.4190515650684,39.6103042608292,0 22.4210272370899,39.6106715244823,0 22.4194920215891,39.6161098855581,0 22.4239904098204,39.6172111068153,0 22.4238288774422,39.6176785027761,0 22.4272628628199,39.6191846572069,0 22.4262266780969,39.6219559827302,0 22.4261519457612,39.6220550306371,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>14ο Γυμνάσιο - 2410285851
+-  ΧΑΤΖΟΠΟΥΛΟΥ-ΚΑΡΚΑΒΙΤΣΑ , 41221</name>
+			<styleUrl>#plexPolyStyle220</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4252094054618,39.644061434638,0 22.4278548753836,39.6457580487563,0 22.4287136977799,39.6448392619939,0 22.4295138192107,39.6446067532574,0 22.4306790316146,39.644386899043,0 22.4367253499381,39.643868189908,0 22.4369516430159,39.6451294555223,0 22.4384556377006,39.6449817726618,0 22.4386462694119,39.6433463584817,0 22.4385330191911,39.642373593097,0 22.4369294653889,39.642222024539,0 22.4371485897921,39.6415381462138,0 22.4372287303298,39.6407819290148,0 22.4362863213496,39.640722304798,0 22.4361972827961,39.6389538161029,0 22.4329182802644,39.6386422423163,0 22.4326935032632,39.639523376693,0 22.4301441476047,39.6392449698033,0 22.4296580306905,39.6415618410002,0 22.4279683601728,39.6414540769775,0 22.4277871117624,39.6399409960592,0 22.4251374456456,39.6396224145737,0 22.4255174938456,39.6419092230996,0 22.4253560924598,39.6427757745553,0 22.4251887056904,39.6440357386813,0 22.4278375943095,39.6457775542258,0 22.4252094054618,39.644061434638,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>15ο Γυμνάσιο - 2410620724
+- ΧΑΤΖΗΚΥΡΙΑΚΟΥ-ΓΚΙΚΑ ΧΑΤΖΗΔΑΚΗ, 41335</name>
+			<styleUrl>#plexPolyStyle260</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							22.4042036950315,39.6152490674822,0 22.4084699971633,39.6194471410775,0 22.4161816095705,39.6266879911344,0 22.4166439459387,39.6271067479631,0 22.4179556342407,39.6279928803946,0 22.4196373009167,39.6286150546949,0 22.4206897249387,39.6289257890594,0 22.424458355768,39.6243385357432,0 22.4258215956679,39.6227052650138,0 22.4259694881262,39.622454611919,0 22.4261442600731,39.6220554031744,0 22.4263066124332,39.6214114673113,0 22.4268076126094,39.6198802954426,0 22.4272628628199,39.6191846572069,0 22.4237792614366,39.6176762876262,0 22.4239904098204,39.6172111068153,0 22.4194141580341,39.6161207946953,0 22.4210267039287,39.6106733261498,0 22.4190515650684,39.6103042608292,0 22.4162647853665,39.6103385363152,0 22.4132771126315,39.6102735563941,0 22.4125399076662,39.6112340381214,0 22.4114923680186,39.6120052174358,0 22.4091021846285,39.6130697487551,0 22.404180713038,39.6152592919643,0 22.4042036950315,39.6152490674822,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

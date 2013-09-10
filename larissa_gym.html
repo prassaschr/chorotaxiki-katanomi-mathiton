@@ -1,0 +1,234 @@
+<?php defined( '_JEXEC' ) or die( 'Restricted access' ); //Αν το εισάγετε σε κάποιο CMS 
+?>
+<!--
+////////////////////////////////////////////////////////////////////////////  
+	"Χωροταξική Κατανομή Σχολείων"
+	Διαδικτυακής Εφαρμογής Χαρτογραφικής Απεικόνισης Χωροταξικής Κατανομής 
+	Μαθητών Περιφέρειας Θεσσαλίας από αρχεία XML 
+	Copyright (C) 2012 Πρασσάς Χρηστος (prassaschr@gmail.com)
+///////////////////////////////////////////////////////////////////////////
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/copyleft/gpl.html.
+////////////////////////////////////////////////////////////////////////////
+	/* ************************** ΠΕΡΙΓΡΑΦΗ ΛΕΙΤΟΥΡΓΙΑΣ ΑΡΧΕΙΟΥ ************************** */
+	/*	Το αρχείο αυτό παρουσιάζει τα δεδομένα του XML αρχείου στον χάρτη (Google Maps).          */
+	/*  Αν η φόρμα υποβληθεί, διαβάζει το αρχείο ΑΦΜ.php και παρουσιάζει τα οικονομικά στοιχεία   */
+	/* ****************************************************************************************** */
+!-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta name="author" content="Christos Prassas - ΠΔΕ Θεσσαλίας - 2012-2013">
+        <title>Χωροταξική Κατανομή Μαθητικού Πληθυσμού Λάρισας</title>
+
+<style type="text/css">
+html, body, #map_canvas {
+	width:   520px;
+	height:  670px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	margin:  0;
+	padding: 0;
+}
+    .infowindow * {font-size: 90%; margin: 0}
+</style>
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+        </script>
+        <script type="text/javascript" src="http://geoxml3.googlecode.com/svn/branches/polys/geoxml3.js">
+        </script>
+        <script type="text/javascript" src="http://geoxml3.googlecode.com/svn/trunk/ProjectedOverlay.js">
+        </script>
+        <script type="text/javascript">
+var geoXml = null;
+var map = null;
+var myLatLng = null;
+
+    function initialize() {
+                myLatLng = new google.maps.LatLng(39.623204773140934, 22.36197337768556);
+                
+                var myOptions = {
+                    zoom: 7,
+                    center: new google.maps.LatLng(39.623204773140934, 22.36197337768556),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                map = new google.maps.Map(document.getElementById("map_canvas"),
+                      myOptions);
+                
+   geoXml = new geoXML3.parser({
+                    map: map,
+                    singleInfoWindow: true,
+                    afterParse: useTheData
+                });
+                geoXml.parse('larissa_gym.xml');
+                
+            };
+			
+function kmlClick(pm) {
+   if (geoXml.docs[0].gpolygons[pm].getMap()) {
+      google.maps.event.trigger(geoXmlDoc.gpolygons[pm],"click");
+   } else {
+      geoXmlDoc.gpolygons[pm].setMap(map);
+      google.maps.event.trigger(geoXmlDoc.gpolygons[pm],"click");
+   }
+}
+
+function kmlShowPoly(poly) {
+   map.fitBounds(geoXmlDoc.gpolygons[poly].bounds);
+   for (var i=0;i<geoXmlDoc.gpolygons.length;i++) {
+     if (i == poly) {
+       geoXmlDoc.gpolygons[i].setMap(map);
+     } else {
+       geoXmlDoc.gpolygons[i].setMap(null);
+     }
+   }
+}
+
+function kmlColor (kmlIn) {
+  var kmlColor = {};
+  if (kmlIn) {
+   aa = kmlIn.substr(0,2);
+   bb = kmlIn.substr(2,2);
+   gg = kmlIn.substr(4,2);
+   rr = kmlIn.substr(6,2);
+   kmlColor.color = "#" + rr + gg + bb;
+   kmlColor.opacity = parseInt(aa,16)/256;
+  } else {
+   // defaults
+   kmlColor.color = randomColor();
+   kmlColor.opacity = 0.45;
+  }
+  return kmlColor;
+}
+
+function randomColor(){ 
+  var color="#";
+  var colorNum = Math.random()*8388607.0;  // 8388607 = Math.pow(2,23)-1
+  var colorStr = colorNum.toString(16);
+  color += colorStr.substring(0,colorStr.indexOf('.'));
+  return color;
+};
+
+var highlightOptions = {fillColor: "#FFFF00", strokeColor: "#000000", fillOpacity: 0.3, strokeWidth: 10};
+
+function kmlHighlightPoly(poly) {
+   for (var i=0;i<geoXmlDoc.gpolygons.length;i++) {
+     if (i == poly) {
+       geoXmlDoc.gpolygons[i].setOptions(highlightOptions);
+     } else {
+       geoXmlDoc.gpolygons[i].setOptions(geoXmlDoc.gpolygons[i].normalStyle);
+     }
+   }
+}
+
+function kmlUnHighlightPoly(poly) {
+   for (var i=0;i<geoXmlDoc.gpolygons.length;i++) {
+     if (i == poly) {
+       geoXmlDoc.gpolygons[i].setOptions(geoXmlDoc.gpolygons[i].normalStyle);
+     }
+   }
+}
+
+function showAll() {
+   map.fitBounds(geoXmlDoc.bounds);
+   for (var i=0;i<geoXmlDoc.gpolygons.length;i++) {
+     geoXmlDoc.gpolygons[i].setMap(map);
+   }
+}
+
+function highlightPoly(poly) {
+    google.maps.event.addListener(poly,"mouseover",function() {
+      poly.setOptions(highlightOptions);
+    });
+    google.maps.event.addListener(poly,"mouseout",function() {
+      poly.setOptions(poly.normalStyle);
+    });
+}  
+
+function useTheData(doc){
+  var sidebarHtml = '<table><tr><td><a style="color:#FF0000; background-color:yellow" href="javascript:showAll();"><b>Προβολή όλων</b></a></td></tr>';
+  geoXmlDoc = doc[0];
+  for (var i = 0; i < geoXmlDoc.gpolygons.length; i++) {
+   sidebarHtml += '<tr><td onmouseover="kmlHighlightPoly('+i+');" onmouseout="kmlUnHighlightPoly('+i+');"><a href="javascript:kmlClick('+i+');kmlShowPoly('+i+');">'+doc[0].placemarks[i].name+'</a>';
+    var placemark = geoXmlDoc.placemarks[i];
+      var kmlStrokeColor = kmlColor(placemark.style.color);
+      var kmlFillColor = kmlColor(placemark.style.fillcolor);
+    var normalStyle = {
+        strokeColor: kmlStrokeColor.color,
+        strokeWeight: placemark.style.width,
+        strokeOpacity: kmlStrokeColor.opacity,
+        fillColor: kmlFillColor.color,
+        fillOpacity: kmlFillColor.opacity
+      };
+    geoXmlDoc.gpolygons[i].normalStyle = normalStyle;
+
+    highlightPoly(geoXmlDoc.gpolygons[i]);
+  }
+  sidebarHtml += "</table>";
+  document.getElementById("sidebar").innerHTML = sidebarHtml;
+};
+
+function reload_kml(){
+   geoXml.hideDocument();
+   delete geoXml;
+   geoXml = new geoXML3.parser({
+                    map: map,
+                    singleInfoWindow: true,
+                    afterParse: useTheData
+   });
+   geoXml.parse('larissa_gym.xml'); //Εδώ θα ορίσετε το αρχείο xml που θα παραχθεί από το Google Earth
+   
+
+}
+   function hide_markers_kml(){
+     for (var i=0;i<geoXmlDoc.markers.length;i++) {
+       geoXmlDoc.markers[i].setVisible(false);
+     }
+   }
+
+   function unhide_markers_kml(){
+     for (var i=0;i<geoXmlDoc.markers.length;i++) {
+       geoXmlDoc.markers[i].setVisible(true);
+     }
+   }
+   function hide_polys_kml(){
+     for (var i=0;i<geoXmlDoc.gpolylines.length;i++) {
+       geoXmlDoc.gpolylines[i].setMap(null);
+     }
+   }
+
+   function unhide_polys_kml(){
+     for (var i=0;i<geoXmlDoc.gpolylines.length;i++) {
+       geoXmlDoc.gpolylines[i].setMap(map);
+     }
+   }
+        </script>
+    </head>
+<body onload="initialize()">
+<table style="width:100%;">
+<tr>
+	<td>
+        <div id="map_canvas">
+        </div>
+	</td>
+	<td>
+		<div id="sidebar" style="width:260px;height:600px; overflow:auto"></div>
+	</td>
+</tr>
+</table>
+		<div id="map_text">
+        </div>
+    </body>
+</html>
